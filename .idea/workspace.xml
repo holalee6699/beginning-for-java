@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f243a8c7-ec4e-46d6-877d-c599af9c74f4" name="Default Changelist" comment="&#10;README.md update" />
+    <list default="true" id="f243a8c7-ec4e-46d6-877d-c599af9c74f4" name="Default Changelist" comment="doc init" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,12 +53,38 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/doc/codes/01/1.4/HelloWorld.class" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/doc" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\devFiles\tools\WorkSpace-Github\beginning-for-java\doc" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PrimitiveTransferTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimitiveTransferTest" />
+      <module name="Object-oriented" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.PrimitiveTransferTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -72,6 +98,8 @@
       <updated>1609137895087</updated>
       <workItem from="1609137896627" duration="417000" />
       <workItem from="1609138942785" duration="1578000" />
+      <workItem from="1609160595495" duration="4550000" />
+      <workItem from="1609220684368" duration="635000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;gitignore update">
       <created>1609138009437</created>
@@ -87,7 +115,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609138274148</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&#10;base value transfer">
+      <created>1609166319772</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609166319772</updated>
+    </task>
+    <task id="LOCAL-00004" summary="doc init">
+      <created>1609221274617</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609221274617</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +180,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&#10;gitignore update" />
     <MESSAGE value="&#10;README.md update" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;README.md update" />
+    <MESSAGE value="&#10;base value transfer" />
+    <MESSAGE value="doc init" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1609139827324">
@@ -149,14 +193,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1609139896838" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1609139816729">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1609166642665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609139816729" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609138278577">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1609166642665" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1609166642665">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609138278577" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1609166642665" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1609166642665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1609166642665" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1609166642665">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1609166642665" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1609220909815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1609220909815" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1609221317535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1609221317535" />
     <state x="334" y="129" key="new project wizard" timestamp="1609139928087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
